@@ -1,0 +1,21 @@
+{
+  "name": "api-insta-automation",
+  "version": "1.0.0",
+  "description": "Api para integrar publicaciones de Instagram mediante selenium automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "server.js"
+  },
+  "keywords": [],
+  "author": "Luis Carrasco",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.2",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.4"
+  }
+}
