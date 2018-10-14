@@ -14,6 +14,8 @@ const apiRoutes = require('./app/routes/api')
 const port = process.env.PORT || 3000;
 mongoose.connect(config.database,{
     useNewUrlParser: true
+}, (err, db)=>{
+    if (err) console.log('error '+err)
 }); // db connection
 mongoose.Promise = global.Promise;
 
